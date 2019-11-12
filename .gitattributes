@@ -1,5 +1,5 @@
 scripts/*.ipynb linguist-detectable=false
-surveys/*.rtf linguist-detectable=false
+surveys/how_to_import_qsf.rtf linguist-detectable=false
 scripts/*.py linguist-detectable=true
 scripts/*.m linguist-detectable=true
 
