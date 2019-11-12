@@ -1,1 +1,3 @@
-scripts/* .ipynb linguist-detectable=false
+scripts/*.ipynb linguist-detectable=false
+scripts/*.py linguist-language=Python
+scripts/*.m linguist-language=MATLAB
