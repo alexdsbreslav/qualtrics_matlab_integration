@@ -1,4 +1,4 @@
-# Integrating Qualtrics With Your Behavioral Example.
+# Integrating Qualtrics With Your Behavioral Experiment.
 This is an explanation and toy example for how to integrate Qualtrics with you behavioral experiment. My behavioral experiment is written in MATLAB; however, this is relevant (and honestly easier) for those using Psychopy or other Python based experiment tools.
 
 **See "slides_integrating_qualtrics_MATLAB" for:**
