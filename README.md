@@ -9,7 +9,7 @@ This is an explanation and toy example for how to integrate Qualtrics with you b
 - MATLAB 9.4
 - MATLAB Toolbox: Statistics and Machine Learning Toolbox 11.3
 - A Qualtrics account
-- Python3 with pandas and numpy
+- Python 3 with pandas and numpy
 
 **Before trying to run through the example:**
 - Import the two surveys into your Qualtrics survey library [[click here for directions]](https://www.qualtrics.com/support/survey-platform/my-projects/creating-a-project/#CreatingFromAFile)
