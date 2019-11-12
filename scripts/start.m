@@ -1,8 +1,9 @@
 function start(subject_id, qualtrics_response_id)
-    if ismac = 0
+    if ismac == 0
         disp(['WARNING: This script was written on a Mac and is not currently compatible with PCs. ' ...
         'You will need to update the file path conventions and possible other settings.'])
         return;
+    end
 
     % --------------------------------------------------------------------------
     % settings -----------------------------------------------------------------
@@ -16,7 +17,7 @@ function start(subject_id, qualtrics_response_id)
 
     % ---- if the python path has spaces in it, add ""
     if sum(isspace(python_path)) > 0
-        python_path = ['"' python_path '"']
+        python_path = ['"' python_path '"'];
     end
 
 
@@ -43,7 +44,7 @@ function start(subject_id, qualtrics_response_id)
 
     % ---- if the script path has spaces in it, add ""
     if sum(isspace(script_path)) > 0
-        script_path = ['"' script_path '"']
+        script_path = ['"' script_path '"'];
     end
 
     cmd_string = [python_path ' ' script_path ' ' qualtrics_response_id];
@@ -72,7 +73,7 @@ function start(subject_id, qualtrics_response_id)
 
     % ---- if the script path has spaces in it, add ""
     if sum(isspace(script_path)) > 0
-        script_path = ['"' script_path '"']
+        script_path = ['"' script_path '"'];
     end
 
     cmd_string = [python_path ' ' script_path ' ' ...
