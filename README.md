@@ -16,7 +16,7 @@ This is an explanation and toy example for how to integrate Qualtrics with you b
 - Update the settings in:
   - In participant_log.xlsx, update: your survey_link
   - In matlab_to_qualtrics.py, update: your qualtrics_data_center, your survey_id
-  - In qualtrics_to_matlab.py, update: your qualtrics_data_center, your api_token, your survey_id)
+  - In qualtrics_to_matlab.py, update: your qualtrics_data_center, your api_token, your survey_id
   - In start.m, update: your python path
   
 If you would like to get a closer look at what the python scripts are doing, I have also provided them as Jupyter Notebooks.
