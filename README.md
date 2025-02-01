@@ -20,7 +20,3 @@ This is an explanation and toy example for how to integrate Qualtrics with you b
   - In start.m, update: your python path
   
 If you would like to get a closer look at what the python scripts are doing, I have also provided them as Jupyter Notebooks.
-
-
-Please reach out with any questions, concerns, or suggestions!
-**alexander.breslav@duke.edu**
